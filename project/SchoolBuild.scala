@@ -6,7 +6,9 @@ object SchoolBuild extends Build {
   lazy val all = Project(
     id = "school",
     base = file(".")
-  ) aggregate (cache)
+  ) aggregate (
+    cache, geocode
+  )
 
   lazy val cache = Project(
     id = "school-cache",
@@ -24,5 +26,15 @@ object SchoolBuild extends Build {
     ),
     fork in run := true,
     cancelable := true
+  )
+
+  lazy val geocode = Project(
+    id = "school-geocode",
+    base = file("school-geocode")
+  ) settings (
+    libraryDependencies ++= Seq(
+    )
+  ) dependsOn (
+    cache
   )
 }
