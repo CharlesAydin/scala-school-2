@@ -1,4 +1,4 @@
-namespace java com.hopper.scala.school.cache
+namespace java school.cache
 
 struct Response {
     1: optional string value;

@@ -1,4 +1,4 @@
-package com.hopper.scala.school.cache
+package school.cache
 
 import com.twitter.server.TwitterServer
 import org.apache.thrift.protocol.TBinaryProtocol

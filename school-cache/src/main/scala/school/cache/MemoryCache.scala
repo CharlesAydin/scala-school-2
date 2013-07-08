@@ -1,4 +1,4 @@
-package com.hopper.scala.school.cache
+package school.cache
 
 import com.twitter.util.{FuturePool, Future}
 import scala.collection.JavaConverters._

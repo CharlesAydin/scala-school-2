@@ -1,4 +1,4 @@
-package com.hopper.scala.school.cache
+package school.cache
 
 import com.twitter.app.{App => TwitterApp}
 import java.net.{SocketAddress, InetSocketAddress}
