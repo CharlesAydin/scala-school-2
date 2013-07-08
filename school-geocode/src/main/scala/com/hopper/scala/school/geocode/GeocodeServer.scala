@@ -1,4 +1,4 @@
-package com.hopper.scala.school.geocode
+package school.geocode
 
 import com.twitter.server.TwitterServer
 import google.GoogleGeocodeFilter

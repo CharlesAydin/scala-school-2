@@ -1,11 +1,11 @@
-package com.hopper.scala.school.geocode
+package school.geocode
 
 import org.jboss.netty.handler.codec.http._
 import com.twitter.finagle.{Filter, Service}
 import com.twitter.util.{NonFatal, Future}
 import com.twitter.finagle.http.{Response, Request}
 import spray.json._
-import com.hopper.scala.school.geocode.DataModel._
+import school.geocode.DataModel._
 
 class GeocodeHttpService extends Filter[HttpRequest, HttpResponse, String, City] {
 

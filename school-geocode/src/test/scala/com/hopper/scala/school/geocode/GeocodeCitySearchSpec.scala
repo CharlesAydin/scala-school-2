@@ -1,4 +1,4 @@
-package com.hopper.scala.school.geocode
+package school.geocode
 
 import org.specs2.mutable._
 import com.hopper.scala.school.geocode.DataModel._

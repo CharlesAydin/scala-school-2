@@ -1,11 +1,11 @@
-package com.hopper.scala.school.geocode.google
+package school.geocode.google
 
 import org.jboss.netty.handler.codec.http.{HttpResponse, HttpRequest}
 import com.twitter.finagle.{Service, Filter}
 import com.twitter.util.Future
 import com.twitter.finagle.http.{Response, RequestBuilder}
 import spray.json._
-import com.hopper.scala.school.geocode.DataModel._
+import school.geocode.DataModel._
 import java.net.URLEncoder
 
 class GoogleGeocodeFilter extends Filter[String, GeocodeResponse, HttpRequest, HttpResponse] {

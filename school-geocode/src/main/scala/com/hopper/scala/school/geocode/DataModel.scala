@@ -1,4 +1,4 @@
-package com.hopper.scala.school.geocode
+package school.geocode
 
 import spray.json.{DefaultJsonProtocol, JsonFormat}
 

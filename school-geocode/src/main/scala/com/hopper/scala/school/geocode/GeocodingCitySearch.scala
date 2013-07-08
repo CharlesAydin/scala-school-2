@@ -1,8 +1,8 @@
-package com.hopper.scala.school.geocode
+package school.geocode
 
 import com.twitter.finagle.Service
 import com.twitter.util.Future
-import com.hopper.scala.school.geocode.DataModel._
+import school.geocode.DataModel._
 
 
 class GeocodingCitySearch(geocoder: Service[String, GeocodeResponse]) extends Service[String, City] {
