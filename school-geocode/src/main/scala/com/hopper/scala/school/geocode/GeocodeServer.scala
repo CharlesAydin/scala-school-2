@@ -9,7 +9,7 @@ import com.twitter.util.Await
 import org.jboss.netty.handler.codec.http.{HttpResponse, HttpRequest}
 
 /**
- * A simple finagle server that launches the cache service on the specified port.
+ * A simple finagle server that launches the geocode service on the specified port.
  */
 object GeocodeServer extends TwitterServer {
 

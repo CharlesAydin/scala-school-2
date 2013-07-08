@@ -15,20 +15,6 @@ class GeocodingCitySearch(geocoder: Service[String, GeocodeResponse]) extends Se
 object GeocodingCitySearch {
 
   def toCity(response: GeocodeResponse) = {
-
-//    response.results.view
-//      .flatMap { result =>
-//
-//        def findByType(typ: String) = result.address_components.find { _.types contains typ }.map { _.long_name }
-//
-//        for {
-//          name <- findByType("locality")
-//          country <- findByType("country")
-//        } yield City(name, country, result.geometry.location)
-//      }
-//      .headOption
-//      .getOrElse { throw new IllegalStateException("Could not find a valid city!") }
-
     // TODO: Fix this
     City(
       name = "Atlantis",
