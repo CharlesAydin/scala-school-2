@@ -1,7 +1,7 @@
 package school.geocode
 
 import org.specs2.mutable._
-import com.hopper.scala.school.geocode.DataModel._
+import school.geocode.DataModel._
 
 class GeocodeCitySearchSpec extends Specification {
 

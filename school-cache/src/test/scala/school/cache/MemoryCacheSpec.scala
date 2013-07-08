@@ -1,4 +1,4 @@
-package com.hopper.scala.school.cache
+package school.cache
 
 import org.specs2.mutable._
 
